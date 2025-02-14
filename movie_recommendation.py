@@ -13,7 +13,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load dataset
-movies_data = pd.read_csv("C:/Users/subik/OneDrive/Document/PROJECT/movies.csv")
+movies_data = pd.read_csv("movies.csv")
 
 # Ensure 'index' column exists
 if 'index' not in movies_data.columns:
